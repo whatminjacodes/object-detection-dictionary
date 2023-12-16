@@ -1,33 +1,39 @@
 # Gradle files
-.gradle/
-build/
+object-detection-dictionary/.gradle/
+object-detection-dictionary/build/
+object-detection-dictionary/app/build/
 
 # Local configuration file (sdk path, etc)
-local.properties
+object-detection-dictionary/local.properties
 
 # Log/OS Files
-*.log
+object-detection-dictionary/*.log
 
 # Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+object-detection-dictionary/captures/
+object-detection-dictionary/.externalNativeBuild/
+object-detection-dictionary/.cxx/
+object-detection-dictionary/*.apk
+object-detection-dictionary/output.json
 
 # IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+object-detection-dictionary/*.iml
+object-detection-dictionary/.idea/
+object-detection-dictionary/misc.xml
+object-detection-dictionary/deploymentTargetDropDown.xml
+object-detection-dictionary/render.experimental.xml
 
 # Keystore files
-*.jks
-*.keystore
+object-detection-dictionary/*.jks
+object-detection-dictionary/*.keystore
 
 # Google Services (e.g. APIs or Firebase)
-google-services.json
+object-detection-dictionary/google-services.json
 
 # Android Profiling
-*.hprof
+object-detection-dictionary/*.hprof
+
+object-detection-dictionary/.DS_Store
+
+# Secrets
+object-detection-dictionary/secrets.properties
